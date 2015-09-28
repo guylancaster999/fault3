@@ -1,0 +1,48 @@
+body
+{font-family: Helvetica, Arial, Sans-Serif;}
+h1
+{
+	margin-top:0;
+	text-align:center;
+}
+h2
+{
+	text-align:center;
+	margin-bottom:10px;
+	padding-bottom:6px;
+}
+.status
+{
+	color		:blue;
+	text-align	:center;
+	font-weight	:bold;
+}
+.error
+{
+	color		:red;
+	text-align	:center;
+	font-weight	:bold;
+}
+.menu
+{position:absolute;
+left:10px;
+top:100px;
+}
+.menu a
+{
+	text-decoration:none;
+	font-weight:bold;
+	font-size:10pt;
+}
+.main
+{position:absolute;
+left:100px;
+top:100px;
+}
+.top
+{
+	position:absolute:
+	left:0;
+	top:0;
+}
+
