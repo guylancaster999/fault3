@@ -33,7 +33,7 @@ pgTop("Faults");?>
 			</tr>
 			<tr>
 				<td>Page</td>
-				<td><input type='text' id='page' name='page' value="<?php print $_REQUEST['page'];?>" /></td>
+				<td><input type='text' id='page' name='page' value="<?php print $_REQUEST['page'];?>"  size="60" /></td>
 			</tr>
 			<tr>
 				<td>Fault </td>

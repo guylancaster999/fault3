@@ -24,7 +24,7 @@ pgTop("Faults -".$_SESSION["systemName"]);
 			</tr>
 			<tr>
 				<td>Page</td>
-				<td><input type='text' id='page' name='page' value="<?php print $_REQUEST['page'];?>" /></td>
+				<td><input type='text' id='page' name='page'  size="60" value="<?php print $_REQUEST['page'];?>" /></td>
 			</tr>
 			<tr>
 				<td>Fault </td>
