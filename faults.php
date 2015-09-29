@@ -36,33 +36,30 @@ pgTop("Faults");?>
 				<td><input type='text' id='page' name='page' value="<?php print $_REQUEST['page'];?>"  size="60" /></td>
 			</tr>
 			<tr>
-				<td>Fault </td>
-				<td><input type='text' id='fault' name='fault' size='60' value='<?php print $_REQUEST['fault'];?>'/></td>
+				<td valign='top'>Fault </td>
+				<td valign='top'><textarea rows="4" cols="60" id='fault' name='fault' ><?php print $_REQUEST['fault'];?></textarea></td>
 				<td>&nbsp;</td>
-				<td>Date <input type="text" size="6" id="faultDate" name="faultDate" value="<?php print $_REQUEST["faultDate"];?>"/></td>
+				<td valign='top'>Date <input type="text" size="6" id="faultDate" name="faultDate" value="<?php print $_REQUEST["faultDate"];?>"/></td>
 			</tr>
 			
 			<tr>
-				<td>Fix </td>
-				<td><input type='text' id='fix' name='fix' size='60' value='<?php print $_REQUEST['fix'];?>'/></td>
+				<td valign='top'>Fix </td>
+				<td valign='top'><textarea rows="4" cols="60" id='fix' name='fix' ><?php print $_REQUEST['fix'];?></textarea></td>
 				<td>&nbsp;</td>
-				<td>Date <input type="text" size="6" id="fixDate" name="fixDate" value="<?php print $_REQUEST["fixDate"];?>"/></td>
+				<td valign='top'>Date <input type="text" size="6" id="fixDate" name="fixDate" value="<?php print $_REQUEST["fixDate"];?>"/></td>
 			</tr>
-			
 			<tr>
-				<td>Confirmed </td>
-				<td><input type='checkbox' id='confirmed' name='confirmed' value="Y" <?php print ($_REQUEST['confirmed']=="Y"? " checked ":" ");?> /></td>
+				<td valign='top'> Reject Reason</td>
+				<td><textarea rows="4" cols="60" id='rejectReason' name='rejectReason' ><?php print $_REQUEST['rejectReason'];?></textarea></td>
 				<td>&nbsp;</td>
-				<td>Date <input type="text" size="6" id="confirmedDate" name="confirmedDate" value="<?php print $_REQUEST["confirmedDate"];?>"/></td>
+				<td valign='top'>Date <input type="text" size="6" id="rejectDate" name="rejectDate" value="<?php print $_REQUEST["rejectDate"];?>"/></td>
 			</tr>
-			
 			<tr>
-				<td>Reject Reason</td>
-				<td><input type='text' id='rejectReason' name='rejectReason' size='60' value='<?php print $_REQUEST['rejectReason'];?>'/></td>
+				<td valign='top'>Fix Confirmed </td>
+				<td valign='top'><input type='checkbox' id='confirmed' name='confirmed' value="Y" <?php print ($_REQUEST['confirmed']=="Y"? " checked ":" ");?> /></td>
 				<td>&nbsp;</td>
-				<td>Date <input type="text" size="6" id="rejectDate" name="rejectDate" value="<?php print $_REQUEST["rejectDate"];?>"/></td>
+				<td valign='top'>Date <input type="text" size="6" id="confirmedDate" name="confirmedDate" value="<?php print $_REQUEST["confirmedDate"];?>"/></td>
 			</tr>
-			
 			<tr>
 				<td></td>
 				<td><input type='submit' id='submit' name="submit" value='Add'> 
